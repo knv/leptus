@@ -36,7 +36,7 @@
    terminate(_Reason, _Route, _Req, _State) ->
        ok.
    #+END_SRC
-   
+
    Note the use of the following in your request/resource handler module.
    #+BEGIN_SRC erlang
    -compile({parse_transform, leptus_pt}).
@@ -57,7 +57,7 @@
    {"say":"Hi","to":"Leptus"}
    #+END_SRC
 
-
+   
 ** Table of contents
    :PROPERTIES:
    :CUSTOM_ID: toc
